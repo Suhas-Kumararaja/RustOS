@@ -1,5 +1,6 @@
-    .global _start
     .extern _STACK_PTR
+    .global _start
+
     .section .text.boot
 
 _start:
